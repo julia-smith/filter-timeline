@@ -186,16 +186,6 @@ a:focus,a:hover {
   color: #888
 }
 
-.webtweet::after {
-  content: url(https://s3.amazonaws.com/uploads-cironline-org/scripts/twitter-web-intents/Twitter_logo_blue_16.png)
-}
-
-.browsehappy {
-  margin: .2em 0;
-  background: #ccc;
-  color: #000;
-  padding: .2em 0
-}
 
 #lv {
   padding: 0
@@ -428,116 +418,116 @@ a:focus,a:hover {
 }
 
 @media screen and (max-width:1000px) {
-#lv .timeline .card:nth-of-type(odd) {
-  border-right: 9px solid #f38c21
-}
+  #lv .timeline .card:nth-of-type(odd) {
+    border-right: 9px solid #f38c21
+  }
 
-#lv .timeline .card:nth-of-type(even) {
-  border-left: 9px solid #f38c21;
-  margin-left: 48.8%
-}
+  #lv .timeline .card:nth-of-type(even) {
+    border-left: 9px solid #f38c21;
+    margin-left: 48.8%
+  }
 
 }
 
 @media screen and (max-width:850px) {
-#lv .seg-section {
-  font-size: .8em;
-  padding: 1em .25em
-}
+  #lv .seg-section {
+    font-size: .8em;
+    padding: 1em .25em
+  }
 
-#lv .org-instruction {
-  width: 100%
-}
+  #lv .org-instruction {
+    width: 100%
+  }
 
-#lv .timeline .card:nth-of-type(odd) {
-  border-right: 8px solid #f38c21
-}
+  #lv .timeline .card:nth-of-type(odd) {
+    border-right: 8px solid #f38c21
+  }
 
-#lv .timeline .card:nth-of-type(even) {
-  border-left: 8px solid #f38c21
-}
+  #lv .timeline .card:nth-of-type(even) {
+    border-left: 8px solid #f38c21
+  }
 
 }
 
 @media screen and (max-width:750px) {
-#lv .timeline .card:nth-of-type(odd) {
-  border-right: 7px solid #f38c21
-}
+  #lv .timeline .card:nth-of-type(odd) {
+    border-right: 7px solid #f38c21
+  }
 
-#lv .timeline .card:nth-of-type(even) {
-  border-left: 7px solid #f38c21
-}
+  #lv .timeline .card:nth-of-type(even) {
+    border-left: 7px solid #f38c21
+  }
 
 }
 
 @media screen and (max-width:600px) {
-#lv .lv-name {
-  min-height: 38px
-}
+  #lv .lv-name {
+    min-height: 38px
+  }
 
-#lv .expanded .lv-timeline-box {
-  width: 100%;
-  position: static;
-  box-shadow: none;
-  border-top: 1px solid rgba(255,255,255,.5);
-  margin-top: .5em
-}
+  #lv .expanded .lv-timeline-box {
+    width: 100%;
+    position: static;
+    box-shadow: none;
+    border-top: 1px solid rgba(255,255,255,.5);
+    margin-top: .5em
+  }
 
-#lv .org-instruction {
-  width: 100%
-}
+  #lv .org-instruction {
+    width: 100%
+  }
 
-#lv .lv-profile,#lv .lv-profile:last-of-type {
-  width: 32%;
-  margin-top: .5em
-}
+  #lv .lv-profile,#lv .lv-profile:last-of-type {
+    width: 32%;
+    margin-top: .5em
+  }
 
-#lv .lv-segmented {
-  border-left: 1px solid #ccc;
-  border-bottom: 1px solid #ccc
-}
+  #lv .lv-segmented {
+    border-left: 1px solid #ccc;
+    border-bottom: 1px solid #ccc
+  }
 
-#lv .seg-section {
-  width:33.333%;
-  font-size: .7em;
-  padding: 1em .25em;
-  border-top: 1px solid #ccc
-}
+  #lv .seg-section {
+    width:33.333%;
+    font-size: .7em;
+    padding: 1em .25em;
+    border-top: 1px solid #ccc
+  }
 
-#lv .seg-section:last-child {
-  border-right: 1px solid #ccc
-}
+  #lv .seg-section:last-child {
+    border-right: 1px solid #ccc
+  }
 
-#lv .timeline .card {
-  width: 100%;
-  float: none;
-  margin-bottom: 1em
-}
+  #lv .timeline .card {
+    width: 100%;
+    float: none;
+    margin-bottom: 1em
+  }
 
-#lv .timeline .card:nth-of-type(odd) {
-  margin-right: 0;
-  border: 1px solid #ccc;
-  border-top: 6px solid #f38c21
-}
+  #lv .timeline .card:nth-of-type(odd) {
+    margin-right: 0;
+    border: 1px solid #ccc;
+    border-top: 6px solid #f38c21
+  }
 
-#lv .timeline .card:nth-of-type(even) {
-  margin-left: 0;
-  border: 1px solid #ccc;
-  border-top: 6px solid #f38c21
-}
+  #lv .timeline .card:nth-of-type(even) {
+    margin-left: 0;
+    border: 1px solid #ccc;
+    border-top: 6px solid #f38c21
+  }
 
-#lv .card>div::before {
-  display: none
-}
+  #lv .card>div::before {
+    display: none
+  }
 
-#lv .timeline .card>div {
-  border: none
-}
+  #lv .timeline .card>div {
+    border: none
+  }
 
-#lv .timeline .card>div>* {
-  max-width: 400px;
-  display: block;
-  margin-left: auto;
-  margin-right: auto
-}
+  #lv .timeline .card>div>* {
+    max-width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+  }
 }
