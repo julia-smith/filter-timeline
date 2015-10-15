@@ -1,5 +1,5 @@
 #filter-timeline
-A simple timeline, filterable by category
+A simple vertical timeline, filterable by category
 
 ##Quickstart
-`python -m SimpleHTTPServer`
+`$ python -m SimpleHTTPServer`
