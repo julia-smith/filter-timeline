@@ -1,0 +1,543 @@
+svg:not(:root) {
+  overflow: hidden;
+  max-height: 100%
+}
+
+article #lv {
+  font-size: 16px
+}
+
+h1,h2,h3,h4,h5,h6,p {
+  text-rendering: optimizeLegibility
+}
+
+.label,a {
+  text-decoration: none
+}
+
+.label,body {
+  position: relative;
+  line-height: 1
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+  font-weight: 400;
+  font-style: normal
+}
+
+.label,body,p {
+  font-weight: 400
+}
+
+#lv .lv-profile,.container,.label,body {
+  position: relative
+}
+
+#lv .alert-icon,img {
+  vertical-align: middle
+}
+
+#lv .timeline h4,#lv h3,.hed {
+  text-transform: uppercase
+}
+
+*,:after,:before {
+  box-sizing: border-box
+}
+
+blockquote,dd,div,dl,dt,form,h1,h2,h3,h4,h5,h6,li,ol,p,pre,td,th,ul {
+  margin: 0;
+  padding: 0
+}
+
+.row {
+  width: 100%;
+  max-width: 62.5rem;
+  margin: 0 auto
+}
+
+.row:after,.row:before {
+  content: " ";
+  display: table
+}
+
+.label,img {
+  display: inline-block
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #222;
+  margin-top: .2rem;
+  margin-bottom: .5rem;
+  line-height: 1.4
+}
+
+p {
+  font-family: inherit;
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem
+}
+
+img {
+  -ms-interpolation-mode: bicubic;
+  max-width: 100%;
+  height: auto
+}
+
+a {
+  line-height: inherit
+}
+
+.label {
+  font-family: "Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
+  text-align: center;
+  white-space: nowrap;
+  margin-bottom: auto;
+  padding: .25rem .5rem;
+  font-size: .6875rem;
+  background-color: #008CBA;
+  color: #FFF
+}
+
+body,h1,h2,h3,h4,h5,h6 {
+  font-family: ff-meta-serif-web-pro,Georgia,serif
+}
+
+@media only screen and (min-width:40.063em) {
+h1,h2,h3,h4,h5,h6 {
+  line-height: 1.4
+}
+
+h1 {
+  font-size: 2.75rem
+}
+
+h3 {
+  font-size: 1.6875rem
+}
+}
+
+body {
+  font-size: 16px;
+  color: #222;
+  padding: 0;
+  margin: 0;
+  cursor: default
+}
+
+.byline,.note {
+  font-style: italic
+}
+
+.hed,.subhed {
+  font-weight: 700
+}
+
+a {
+  color: #f38c21
+}
+
+a:focus,a:hover {
+  outline: 0;
+  color: #d5710c
+}
+
+.byline {
+  color: #999
+}
+
+.note {
+  font-size: .8rem
+}
+
+.hed {
+  font-family: Lato,Helvetica,sans-serif;
+  font-size: 1rem
+}
+
+.subhed {
+  font-size: 1.3rem
+}
+
+.hed-alt {
+  font-family: ff-meta-serif-web-pro,Georgia,serif;
+  font-weight: 400;
+  line-height: 1.2;
+  margin: .75em 0
+}
+
+.small,.webtweet {
+  display: block;
+  margin-bottom: 10px
+}
+
+.description:first-letter {
+  float: left;
+  font-size: 3.5rem;
+  line-height: .6rem;
+  padding-top: .4rem;
+  padding-right: .5rem;
+  padding-left: .2rem
+}
+
+.small {
+  font-family: Lato,Helvetica,sans-serif;
+  color: #888
+}
+
+.webtweet::after {
+  content: url(https://s3.amazonaws.com/uploads-cironline-org/scripts/twitter-web-intents/Twitter_logo_blue_16.png)
+}
+
+.browsehappy {
+  margin: .2em 0;
+  background: #ccc;
+  color: #000;
+  padding: .2em 0
+}
+
+#lv {
+  padding: 0
+}
+
+#lv .row {
+  padding: 0;
+  overflow: visible
+}
+
+#lv .intro p {
+  font-size: 1.1em
+}
+
+#lv h3 {
+  font-family: Lato,sans-serif;
+  font-weight: 700;
+  margin-bottom: 1em
+}
+
+#lv p.small {
+  font-size: .9em;
+  color: #666
+}
+
+#lv p.byline {
+  color: #666
+}
+
+#lv .lv-section {
+  margin: 0;
+  padding: 2em 0;
+  float: left
+}
+
+#lv .lv-name:focus {
+  outline: 0;
+  background-color: rgba(204,204,204,.75)
+}
+
+#lv .alert-icon {
+  max-width: 24px;
+  margin-top: -4px;
+  display: inline-block
+}
+
+#lv .alert-icon path {
+  fill: #64B5CD
+}
+
+#lv .lv-button {
+  float: left;
+  background-color: #f38c21
+}
+
+#lv .lv-button:focus,#lv .lv-button:hover {
+  background-color: #d5710c
+}
+
+#lv .lv-text-content {
+  width: 100%;
+  float: left
+}
+
+#lv .lv-timeline {
+  width:100%
+}
+
+#lv .lv-timeline-box {
+  display: none;
+  color: #fff
+}
+
+#lv .lv-timeline-box time {
+  font-family: Lato,sans-serif;
+  font-size: 1.1em;
+  line-height: 0
+}
+
+#lv .lv-timeline-box h4 {
+  display: none
+}
+
+#lv .lv-timeline-box p {
+  font-size: .9em;
+  margin: .5em 0 1em;
+  opacity: .8
+}
+
+#lv .lv-timeline-box .to-timeline {
+  font-family: Lato,sans-serif;
+  font-size: .8em;
+  padding: 0;
+  background-color: transparent;
+  border-bottom: none
+}
+
+#lv .lv-timeline-box .to-timeline a {
+  padding: 0 0 .5em
+}
+
+#lv .lv-timeline-box .to-timeline a:hover {
+  color: #fff
+}
+
+#lv .expanded .lv-timeline-box {
+  display: block;
+  position: absolute;
+  background-color: #444;
+  top: 2.6em;
+  left: 0;
+  width: 300px;
+  min-width: 100%;
+  padding: 10px;
+  z-index: 2;
+  text-align: left;
+  box-shadow: 1px 1px 2px #000;
+  margin: 0;
+  color: #fff;
+  border-bottom: none
+}
+
+#lv .card {
+  position: relative;
+  width: 50%;
+  float: left
+}
+
+#lv .card:nth-of-type(odd) {
+  margin-right: 49.1%;
+  border-right: 10px solid #f38c21
+}
+
+#lv .card:nth-of-type(even) {
+  margin-left: 49%;
+  border-left: 10px solid #f38c21
+}
+
+#lv .card>div::before {
+  border-top: 10px solid #ccc;
+  width: 1em;
+  display: block;
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 45%
+}
+
+#lv .card:nth-of-type(odd)>div::before {
+  border-top: 10px solid #f38c21
+}
+
+#lv .card:nth-of-type(even)>div::before {
+  border-top: 10px solid #f38c21;
+  right: auto;
+  left: 0
+}
+
+#lv .timeline .card>div {
+  margin: 1em;
+  text-align: center;
+  border: 1px solid #ccc;
+  padding: 1em 2em
+}
+
+#lv .timeline h4 {
+  font-family: Lato,sans-serif;
+  font-size: .75em;
+  color: #333;
+  background-color: rgba(204,204,204,.75);
+  display: inline-block;
+  padding: 4px 10px
+}
+
+#lv .timeline time {
+  font-size: 2em;
+  font-weight: 700;
+  display: block;
+  margin: .45em 0 .25em
+}
+
+#lv .timeline p {
+  margin-bottom: 0;
+  color: #666;
+  font-size: 16px
+}
+
+#lv .timeline img {
+  display: block;
+  margin: 0 auto .5em;
+  max-width: 70px
+}
+
+#lv .lv-segmented {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  text-align:center;
+  margin: 1em 0 2em;
+  width: 100%
+}
+
+#lv .seg-section {
+  display:inline-block;
+  width: 16.6666%;
+  text-align: center;
+  font-family: Lato,sans-serif;
+  padding: 1em;
+  border-right: 1px solid #ccc
+}
+
+#lv .seg-section:last-of-type {
+  border-right: none
+}
+
+#lv .seg-section:focus,#lv .seg-section:hover {
+  outline: 0;
+  color: #333;
+  background-color: rgba(204,204,204,.75);
+  cursor: pointer
+}
+
+#lv .seg-section.filtered {
+  background-color: #444;
+  color: #fff
+}
+
+#lv .seg-section.filtered:focus {
+  background-color: #222
+}
+
+@media screen and (max-width:1000px) {
+#lv .timeline .card:nth-of-type(odd) {
+  border-right: 9px solid #f38c21
+}
+
+#lv .timeline .card:nth-of-type(even) {
+  border-left: 9px solid #f38c21;
+  margin-left: 48.8%
+}
+
+}
+
+@media screen and (max-width:850px) {
+#lv .seg-section {
+  font-size: .8em;
+  padding: 1em .25em
+}
+
+#lv .org-instruction {
+  width: 100%
+}
+
+#lv .timeline .card:nth-of-type(odd) {
+  border-right: 8px solid #f38c21
+}
+
+#lv .timeline .card:nth-of-type(even) {
+  border-left: 8px solid #f38c21
+}
+
+}
+
+@media screen and (max-width:750px) {
+#lv .timeline .card:nth-of-type(odd) {
+  border-right: 7px solid #f38c21
+}
+
+#lv .timeline .card:nth-of-type(even) {
+  border-left: 7px solid #f38c21
+}
+
+}
+
+@media screen and (max-width:600px) {
+#lv .lv-name {
+  min-height: 38px
+}
+
+#lv .expanded .lv-timeline-box {
+  width: 100%;
+  position: static;
+  box-shadow: none;
+  border-top: 1px solid rgba(255,255,255,.5);
+  margin-top: .5em
+}
+
+#lv .org-instruction {
+  width: 100%
+}
+
+#lv .lv-profile,#lv .lv-profile:last-of-type {
+  width: 32%;
+  margin-top: .5em
+}
+
+#lv .lv-segmented {
+  border-left: 1px solid #ccc;
+  border-bottom: 1px solid #ccc
+}
+
+#lv .seg-section {
+  width:33.333%;
+  font-size: .7em;
+  padding: 1em .25em;
+  border-top: 1px solid #ccc
+}
+
+#lv .seg-section:last-child {
+  border-right: 1px solid #ccc
+}
+
+#lv .timeline .card {
+  width: 100%;
+  float: none;
+  margin-bottom: 1em
+}
+
+#lv .timeline .card:nth-of-type(odd) {
+  margin-right: 0;
+  border: 1px solid #ccc;
+  border-top: 6px solid #f38c21
+}
+
+#lv .timeline .card:nth-of-type(even) {
+  margin-left: 0;
+  border: 1px solid #ccc;
+  border-top: 6px solid #f38c21
+}
+
+#lv .card>div::before {
+  display: none
+}
+
+#lv .timeline .card>div {
+  border: none
+}
+
+#lv .timeline .card>div>* {
+  max-width: 400px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto
+}
+}
