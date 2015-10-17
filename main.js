@@ -1,3 +1,4 @@
+// use getData() with Google Sheets to update the timeline with a live data feed
 function getData(){
 
 	$.getJSON('http://cors.io/?u=https://spreadsheets.google.com/feeds/list/<YOUR DOCUMENT KEY HERE>/od6/public/values?alt=json', function(data) {
@@ -55,6 +56,7 @@ function getData(){
 	});
 }
 
+// use createCards() with static data from data.js
 function createCards(){
 	var count = cards.length,
 		uniques = [];
@@ -102,6 +104,7 @@ function createCards(){
 	}
 }
 
+// filter the timeline by category
 function filters(){
 	$('.seg-section').click(function(){
 		var $filter = $(this);
